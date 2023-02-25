@@ -62,7 +62,7 @@ class MainActivity : ComponentActivity() {
                             count.value++
                         }
 
-                        Spacer(modifier = Modifier.padding(15.dp))
+                        Spacer(modifier = Modifier.padding(12.dp))
 
                         // minus
                         CreateButton(
@@ -77,7 +77,7 @@ class MainActivity : ComponentActivity() {
                         }
                     }
 
-                    Spacer(modifier = Modifier.padding(15.dp))
+                    Spacer(modifier = Modifier.padding(12.dp))
 
                     CreateButton(
                         imageVector = Icons.Rounded.Refresh,
